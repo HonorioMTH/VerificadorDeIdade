@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERIFICADOR DE IDADE</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body id="fundo">
+    <header>
+        <h1>VERIFICADOR DE IDADE</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de nascimento: 
+                <input type="number" name="ano" id="ano">
+            </p>
+            <p>Sexo:
+                <label>
+                    <input type="radio" name="sexo" value="masculino" checked>
+                    Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="feminino">
+                    Feminino
+                </label>
+            </p>
+            <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+        <div id="res">
+            <p>Preencha os dados acima para ver o resultado!</p>
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; HonorioDev </p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
